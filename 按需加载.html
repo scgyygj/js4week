@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>按需加载</title>
+	<script src='../animate.js'></script>
+	<script src='anxujiazai.js'></script>
+</head>
+<style>
+*{
+	list-style: none;
+	border: none;
+}
+	
+	.box1{
+		width: 1226px;
+		height: 620px;
+		/* background: red; */
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+    .box1>li{
+    	width: 234px;
+    	height: 300px;
+    	margin-bottom: 10px;
+    	float: left;
+    	margin-right: 10px;
+    }
+    .box1>li a{
+    	display: block;
+    	width: 100%;
+    	height: 100%;
+    }
+    .box1>li img{
+    	display: block;
+    	width: 100%;
+    	height: 100%;
+    }
+    .zuo{
+	width: 36px;
+	height: 333px;
+	background: #888888;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	left: 0;
+}
+   .zuo>li{
+	width: 100%;
+	height: 36px;
+	border-bottom: 1px solid #fff;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+}
+</style>
+<body>
+<div class="box">
+	<ul class="box1">
+		<li><a href=""><img prusrc="img/pms_1490077058.71391368!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490077454.46128587!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490077569.08131612!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490595812.95661863!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490604807.82792204!220x220.jpg" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490604824.19051012!220x220.jpg" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490702347.3628109!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778061.59475600!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778355.67093197!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778418.99894062!220x220.png" alt=""></a></li>
+	</ul>
+</div>
+<div class="box">
+	<ul class="box1">
+		<li><a href=""><img prusrc="img/pms_1490077058.71391368!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490077454.46128587!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490077569.08131612!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490595812.95661863!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490604807.82792204!220x220.jpg" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490604824.19051012!220x220.jpg" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490702347.3628109!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778061.59475600!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778355.67093197!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778418.99894062!220x220.png" alt=""></a></li>
+	</ul>
+</div>
+<div class="box">
+	<ul class="box1">
+		<li><a href=""><img prusrc="img/pms_1490077058.71391368!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490077454.46128587!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490077569.08131612!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490595812.95661863!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490604807.82792204!220x220.jpg" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490604824.19051012!220x220.jpg" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490702347.3628109!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778061.59475600!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778355.67093197!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778418.99894062!220x220.png" alt=""></a></li>
+	</ul>
+</div>
+<div class="box">
+	<ul class="box1">
+		<li><a href=""><img prusrc="img/pms_1490077058.71391368!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490077454.46128587!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490077569.08131612!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490595812.95661863!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490604807.82792204!220x220.jpg" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490604824.19051012!220x220.jpg" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490702347.3628109!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778061.59475600!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778355.67093197!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778418.99894062!220x220.png" alt=""></a></li>
+	</ul>
+</div>
+<div class="box">
+	<ul class="box1">
+		<li><a href=""><img prusrc="img/pms_1490077058.71391368!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490077454.46128587!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490077569.08131612!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490595812.95661863!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490604807.82792204!220x220.jpg" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490604824.19051012!220x220.jpg" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490702347.3628109!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778061.59475600!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778355.67093197!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778418.99894062!220x220.png" alt=""></a></li>
+	</ul>
+</div>
+<div class="box">
+	<ul class="box1">
+		<li><a href=""><img prusrc="img/pms_1490077058.71391368!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490077454.46128587!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490077569.08131612!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490595812.95661863!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490604807.82792204!220x220.jpg" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490604824.19051012!220x220.jpg" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490702347.3628109!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778061.59475600!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778355.67093197!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778418.99894062!220x220.png" alt=""></a></li>
+	</ul>
+</div>
+<div class="box">
+	<ul class="box1">
+		<li><a href=""><img prusrc="img/pms_1490077058.71391368!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490077454.46128587!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490077569.08131612!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490595812.95661863!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490604807.82792204!220x220.jpg" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490604824.19051012!220x220.jpg" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490702347.3628109!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778061.59475600!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778355.67093197!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778418.99894062!220x220.png" alt=""></a></li>
+	</ul>
+</div>
+<div class="box">
+	<ul class="box1">
+		<li><a href=""><img prusrc="img/pms_1490077058.71391368!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490077454.46128587!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490077569.08131612!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490595812.95661863!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490604807.82792204!220x220.jpg" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490604824.19051012!220x220.jpg" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490702347.3628109!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778061.59475600!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778355.67093197!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778418.99894062!220x220.png" alt=""></a></li>
+	</ul>
+</div>
+<div class="box">
+	<ul class="box1">
+		<li><a href=""><img prusrc="img/pms_1490077058.71391368!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490077454.46128587!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490077569.08131612!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490595812.95661863!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490604807.82792204!220x220.jpg" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490604824.19051012!220x220.jpg" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490702347.3628109!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778061.59475600!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778355.67093197!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778418.99894062!220x220.png" alt=""></a></li>
+	</ul>
+</div>
+<div class="box">
+	<ul class="box1">
+		<li><a href=""><img prusrc="img/pms_1490077058.71391368!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490077454.46128587!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490077569.08131612!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490595812.95661863!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490604807.82792204!220x220.jpg" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490604824.19051012!220x220.jpg" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490702347.3628109!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778061.59475600!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778355.67093197!220x220.png" alt=""></a></li>
+		<li><a href=""><img prusrc="img/pms_1490778418.99894062!220x220.png" alt=""></a></li>
+	</ul>
+</div>
+	<ul class="zuo">
+		<li>导航</li>
+		<li>美丽人生</li>
+		<li>潮电酷玩</li>
+		<li>居家生活</li>
+		<li>打造爱巢</li>
+		<!-- <li>户外出行</li>
+		<li>亲子时光</li>
+		<li>猜你喜欢</li>
+		<li>回顶部</li> -->
+	</ul>
+</body>
+</html>
